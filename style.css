@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-size:16px;
+}
+body{
+    margin:0;
+    padding:0;
+    justify-content:center;
+    align-items: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#header{
+    /* font-size:40px;
+    background:linear-gradient(90deg, #eecad3 10%, #ef629f); */
+    text-align:center;
+    background:#FCC418;
+    width:100%;
+    height:50px;
+    border-bottom:1px solid #e6ece6;
+}
+#logo{
+    font-family: 'Recursive', sans-serif;
+    color:#fff;
+    letter-spacing:0.2em;
+    padding:15px;
+}
+#search{
+    margin:50px 30px 0px 85px;
+    border:2px solid #FCC418;
+    border-radius:10px;
+    outline:none;
+    width:70%;
+    height:30px;
+}
+#location{
+    position:relative;
+    top:-25px;
+    font-size: 16px;
+
+}
+/* label{
+    margin:20px 0px 0px 85px;
+} */
+#searchButton{
+    position:relative;
+    top:-18px;
+    left:10px;
+    width:80%;
+    height:28px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+}
+#button{
+    position:relative;
+    top:-16px;
+    left:30px; /*left:130px; */
+    cursor:pointer;
+    background-color:transparent;
+    outline:none;
+    border:none;
+}
+#view{
+    border: none;
+    border-radius:6px;
+    justify-content: center;
+    width:70%;
+    height:60px;
+    margin-top:20px;
+    margin-left:45px;
+    margin-bottom:20px;
+    padding:30px;
+    text-align: center;
+    background: #F6F5FA;
+}
+.cards{
+    position:absolute;
+    width: 325px;
+    height: 280px;
+    left: 85px;
+    top: 300px;
+    background: #F6F5FA;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 14px;
+    font-size: 14px;
+}
+#Temperature{
+    position: absolute;
+    width: 130px;
+    height: 95px;
+    left: 20px;
+    top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+#Humidity{
+    position: absolute;
+    width: 120px;
+    height: 85px;
+    left: 174px;
+    top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding:5px 5px 5px 5px;
+}
+
+#Rain{
+    position: absolute;
+    width: 130px;
+    height: 85px;
+    left: 20px;
+    bottom:50px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+#Sunshine{
+    position: absolute;
+    width: 130px;
+    height: 85px;
+    left: 174px;
+    bottom:50px;
+    background: #ffffff;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+        
+}
+.iconify{
+    width:24px;
+    height:24px;
+    position: relative;
+    left:40px;
+    top:8px;
+}
