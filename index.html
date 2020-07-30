@@ -12,38 +12,42 @@
 </head>
 <body>
     <div id="header">
-        <h2 id="logo">GEO SEARCH</h2>
+        <h2 id="textLogo">GEO SEARCH</h2>
     </div>
     <div class="container">
-        <div id="search">
+        <div id="searchBox">
             <label for="search" id="location">Location</label><br>
-            <input id="searchButton" type="search" placeholder="Enter a city">
-            <button id="button">
+            <input id="searchText" type="search" placeholder="Enter a city">
+            <button type="submit" id="button" id="search">
                 <i class="fas fa-search"></i>
             </button>
         </div>
-        <div id="view">
-            Ibadan<br>
-            Cloudy<br>
-            28.8<sup>o</sup>c<br>
-            2020-08-27
+        <div class="view">
+            <h2 id="place">Ibadan</h2>
+            <p id="desc">Cloudy</p>
+            <p id="temp">28.8<span id="degree-temp">&#8451</span></p>
+            <p id="date">2020-08-27</p>
         </div>
         <div class="cards">
             <div id="Temperature">
                 <span class="iconify" data-icon="fa-solid:temperature-high" data-inline="false" style="color:red;"></span><br>
                 <p style="text-align:center; font-weight: bold; padding:8px">Temperature</p>
+                <p >28.8<span>&#8451</span></p>
             </div>
             <div id="Humidity">
-                <span class="iconify" data-icon="mdi:water-percent" data-inline="false" style="color:#5a7ae4;"></span><br>
+                <span class="iconify" data-icon="mdi:water-percent" data-inline="false" style="color:#5a7ae4;" id="humid-icon"></span><br>
                 <p style="text-align:center; font-weight: bold; padding:8px;">Humidity</p>
+                <p>83%</p>
             </div>
             <div id="Rain">
                 <span class="iconify" data-icon="emojione:cloud-with-rain" data-inline="false"></span><br>
                 <p style="text-align:center; font-weight: bold; padding:8px;">Rainfall</p>
+                <p>30%</p>
             </div>
             <div id="Sunshine">
                 <span class="iconify" data-icon="emojione:sun" data-inline="false"></span><br>
                 <p style="text-align:center; font-weight: bold; padding:8px;">Sunshine</p>
+                <p>16%</p>
             </div>
         </div>
     </div>
