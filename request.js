@@ -19,7 +19,7 @@ updateWeatherSearch = (city) => {
             <div id="Temperature">
                 <span class="iconify" id="iconify" data-icon="fa-solid:temperature-high" data-inline="false"  style="color:red";></span><br>
                 <p id="weather-text">Temperature</p>
-                <p style="font-size:16px; font-weight:bold;">${city.main.temp}<span>&#8451</span></p>
+                <p style="font-weight:bold;">${city.main.temp}<span>&#8451</span></p>
             </div>
             <div id="Humidity">
                 <span class="iconify" id="iconify" data-icon="mdi:water-percent" data-inline="false" style="color:#5a7ae4";></span><br>
