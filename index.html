@@ -6,13 +6,13 @@
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> -->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/fontawesome.min.js"> -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rewrite.css">
     <script src="script.js"></script>
     <title>Geo Search</title>
 </head>
 <body>
     <div id="header">
-        <h2 id="textLogo">GEO SEARCH</h2>
+        <h2 id="headerLogo">GEO SEARCH</h2>
     </div>
     <div class="container">
         <form id="searchBox">
@@ -52,40 +52,41 @@
         </script> -->
         <div class="cityHeader">
             <h2 id="city-name">Seychelles</h2>
-            <p id="dot">.</p>
+            <!-- <p id="dot">.</p> -->
         </div>
-        <div class="description-view">
-            <p id="desc">CLOUDY</p>
-            <p id="temp">297.15<span id="degree-temp">&#8451</span></p>
-        </div>
-        <div class="weather-cards">
-            <div id="Temperature">
-                <span class="iconify" id="iconify" data-icon="fa-solid:temperature-high" data-inline="false"  style="color:red";></span><br>
-                <p id="weather-text">Temperature</p>
-                <p style="font-weight:bold;">297.15<span>&#8451</span></p>
+            <div class="description-view">
+                <p id="img-desc"><img src="images/rain.jpg" id="img-tmb"style="width:100px; margin-right:50px"></p>
+                <p id="desc">Scattered Rain</p>
+                <p id="temp">297.15<span id="degree-temp">&#8451</span></p>
             </div>
-            <div id="Humidity">
-                <span class="iconify" id="iconify" data-icon="mdi:water-percent" data-inline="false" style="color:#5a7ae4";></span><br>
-                <p id="weather-text">Humidity</p>
-                <p style="font-weight:bold;"><span>83</span>%</p>
-            </div>
-            <div id="Wind">
-                <span class="iconify" id="iconify" data-icon="uil:wind" data-inline="false" style="color:#81C2EB;"></span><br>
-                <p id="weather-text">Wind</p>
-                <p style="font-weight:bold;">
-                    <ul>
-                        <li><h5 id="speed">2.6</h5><span>mph</span></li>
-                        <li>/</li>
-                        <li><h5 id="deg">150</h5><span style="font-weight: bold; font-size:24px;">&deg</span></li>
-                    </ul>
-                </p>
-            </div>
-            <div id="Visibility">
-                <span class="iconify" id="iconify" data-icon="tabler:mist" data-inline="false" style="color: #FCC418";></span><br>
-                <p id="weather-text">Visibility</p>
-                <p style="font-weight:bold;">178<span>km</span></p>
-            </div>
-        </div>
+            <div class="weather-cards">
+                <div id="Temperature">
+                    <span class="iconify" id="iconify" data-icon="fa-solid:temperature-high" data-inline="false"  style="color:red";></span><br>
+                    <p id="weather-text">Temperature</p>
+                    <p style="font-weight:bold;">297.15<span>&#8451</span></p>
+                </div>
+                <div id="Humidity">
+                    <span class="iconify" id="iconify" data-icon="mdi:water-percent" data-inline="false" style="color:#5a7ae4";></span><br>
+                    <p id="weather-text">Humidity</p>
+                    <p style="font-weight:bold;"><span>83</span>%</p>
+                </div>
+                <div id="Wind">
+                    <span class="iconify" id="iconify" data-icon="uil:wind" data-inline="false" style="color:#81C2EB;"></span><br>
+                    <p id="weather-text">Wind</p>
+                    <p style="font-weight:bold;">
+                        <ul>
+                            <li><h5 id="speed">2.6</h5><span>mph</span></li>
+                            <li>/</li>
+                            <li><h5 id="deg">150</h5><span style="font-weight: bold; font-size:24px;">&deg</span></li>
+                        </ul>
+                    </p>
+                </div>
+                <div id="Visibility">
+                    <span class="iconify" id="iconify" data-icon="tabler:mist" data-inline="false" style="color: #FCC418";></span><br>
+                    <p id="weather-text">Visibility</p>
+                    <p style="font-weight:bold;">178<span>km</span></p>
+                </div>
+            </div>    
     </div>
     <script src="request.js"></script>  
 </body>
