@@ -32,7 +32,7 @@ function capitalizeFirst(){
 
 const requestCity = async (city) =>{
     const api_key = '14e09d5264977022ce3545c1661fccf0';
-    const apiURL = 'http://api.openweathermap.org/data/2.5/weather';
+    const apiURL = 'https://api.openweathermap.org/data/2.5/weather';
     const query = `?q=${city}&appid=${api_key}`;
     // Alternate concatenation method for declaring the query variable
     // const query = '?q='+city+'&appid'+key;
