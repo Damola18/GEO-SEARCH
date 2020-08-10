@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> -->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/fontawesome.min.js"> -->
-    <link rel="stylesheet" href="rewrite.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title>Geo Search</title>
 </head>
@@ -21,72 +19,37 @@
             <button type="submit" class="button" value="submit">
                 <span class="iconify" data-icon="ant-design:search-outlined" data-inline="false"></span>
             </button>
-            <!-- <input type="submit" class="button" value="SUBMIT"> -->
         </form>
-        <!-- <div id="map"></div> -->
-        <!-- Loading the maps JavaScript API -->
-        <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ-nh0Tvu3Ds4z1cXIWqKiTSdaRnYiTJc&callback=myMap">
-        </script>
-
-        <script>
-            function myMap(){
-                // Map Location with coordinates
-                var myLocation = {
-                    zoom:10,
-                    center:{
-                        lat:7.3775, 
-                        lng:3.94709
-                    }
-                }
-                // Map Reference
-                var map = new google.maps.Map(document.getElementById('map'), myLocation);
-
-                // Add Marker to Map
-                var marker = new google.maps.Marker({
-                    position: {lat:7.3940673, lng:3.780089},
-                    map: map,
-                    icon: ''
-                });
-
-            }
-        </script> -->
         <div class="cityHeader">
             <h2 id="city-name">Seychelles</h2>
-            <!-- <p id="dot">.</p> -->
         </div>
             <div class="description-view">
                 <p id="img-desc"><img src="images/rain.jpg" id="img-tmb"style="width:100px; margin-right:50px"></p>
                 <p id="desc">Scattered Rain</p>
-                <p id="temp">297.15<span id="degree-temp">&#8451</span></p>
+                <p id="temp">33<span id="degree-temp">&#8451</span></p>
             </div>
             <div class="weather-cards">
                 <div id="Temperature">
                     <span class="iconify" id="iconify" data-icon="fa-solid:temperature-high" data-inline="false"  style="color:red";></span><br>
                     <p id="weather-text">Temperature</p>
-                    <p style="font-weight:bold;">297.15<span>&#8451</span></p>
+                    <p id="weather-value">33<span>&#8451</span></p>
                 </div>
                 <div id="Humidity">
                     <span class="iconify" id="iconify" data-icon="mdi:water-percent" data-inline="false" style="color:#5a7ae4";></span><br>
                     <p id="weather-text">Humidity</p>
-                    <p style="font-weight:bold;"><span>83</span>%</p>
+                    <p id="weather-value"><span>83</span>%</p>
                 </div>
                 <div id="Wind">
                     <span class="iconify" id="iconify" data-icon="uil:wind" data-inline="false" style="color:#81C2EB;"></span><br>
                     <p id="weather-text">Wind</p>
-                    <p style="font-weight:bold;">
-                        <ul>
-                            <li><h5 id="speed">2.6</h5><span>mph</span></li>
-                            <li>/</li>
-                            <li><h5 id="deg">150</h5><span style="font-weight: bold; font-size:24px;">&deg</span></li>
-                        </ul>
-                    </p>
+                    <p id="weather-value"><span>2.6</span>mph</p>
                 </div>
                 <div id="Visibility">
                     <span class="iconify" id="iconify" data-icon="tabler:mist" data-inline="false" style="color: #FCC418";></span><br>
                     <p id="weather-text">Visibility</p>
-                    <p style="font-weight:bold;">178<span>km</span></p>
+                    <p id="weather-value">10000<span>km</span></p>
                 </div>
-            </div>    
+            </div>   
     </div>
     <script src="request.js"></script>  
 </body>
