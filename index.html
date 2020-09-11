@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="request.js"></script>
     <title>Geo Search</title>
 </head>
 <body>
@@ -16,18 +16,17 @@
         <form id="searchBox">
             <label for="search" id="location">Location</label><br>
             <input id="searchText" type="text" placeholder="Enter a city">
-            <button type="submit" class="button" value="submit">
+            <button type="submit" id="submit" class="search-button" value="submit">
                 <span class="iconify" data-icon="ant-design:search-outlined" data-inline="false"></span>
             </button>
         </form>
         <div class="cityHeader">
-            <h2 id="city-name">Seychelles</h2>
+            <h2 id="city-name">Abuja,<span>NG</span></h2>
         </div>
-            <div class="description-view">
-                <p id="img-desc"><img src="images/rain.jpg" id="img-tmb"style="width:100px; margin-right:50px"></p>
-                <p id="desc">Scattered Rain</p>
-                <p id="temp">33<span id="degree-temp">&#8451</span></p>
-            </div>
+        <div class="description-view">
+                <p id="description-icon"><img src="images/icon.png" alt="icon" id="img-tmb"></p>
+                <p id="description-text">SCATTERED RAIN</p>
+        </div>
             <div class="weather-cards">
                 <div id="Temperature">
                     <span class="iconify" id="iconify" data-icon="fa-solid:temperature-high" data-inline="false"  style="color:red";></span><br>
@@ -51,6 +50,7 @@
                 </div>
             </div>   
     </div>
-    <script src="request.js"></script>  
+    <!-- <script src="map.js"></script> -->
+    <script src="script.js"></script>  
 </body>
 </html>
