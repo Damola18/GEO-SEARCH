@@ -14,7 +14,7 @@ updateWeatherSearch = (city) => {
     description.innerHTML = `
     <div class="description-view">
         <p id="description-icon"><img src="${iconSrc}" alt="icon" id="img-tmb"></p>
-        <p id="description-text">${city.weather[0].description.toUpperCase()}</p>
+        <p id="description-text"><strong>${city.weather[0].description.toUpperCase()}</strong></p>
     </div>
     `;
     weatherCards.innerHTML = `

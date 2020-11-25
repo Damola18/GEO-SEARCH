@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A weather app that shows current weather data including temperature, humidity, visibility,etc">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="request.js"></script>
     <title>Geo Search</title>
 </head>
 <body>
-    <div id="header">
-        <h2 id="headerLogo">GEO SEARCH</h2>
-    </div>
+    <header>
+        <div id="header">
+            <h2 id="headerLogo">GEO SEARCH</h2>
+        </div>
+    </header>
+    
     <div class="container">
         <form id="searchBox">
-            <label for="search" id="location">Location</label><br>
+            <label for="searchText" id="location">Location</label><br>
             <input id="searchText" type="text" placeholder="Enter a city">
-            <button type="submit" id="submit" class="search-button" value="submit">
+            <button type="submit" id="submit" class="search-button" value="submit" aria-label="Search Button">
                 <span class="iconify" data-icon="ant-design:search-outlined" data-inline="false"></span>
             </button>
         </form>
@@ -50,6 +54,10 @@
                 </div>
             </div>   
     </div>
+
+    <footer>
+        Damola Olutoke
+    </footer>
     <script src="script.js"></script>  
 </body>
 </html>
