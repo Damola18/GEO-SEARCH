@@ -8,4 +8,4 @@
 * Fonts - [Google-Fonts](https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap/ "")
 
 ## Usage
-* Click [here](https://damola18.github.io/GEO-SEARCH/ "here") to open the page in your browser 
+Click [here](https://damola18.github.io/GEO-SEARCH/ "here") to open the page in your browser 
