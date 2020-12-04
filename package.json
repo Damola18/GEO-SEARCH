@@ -1,0 +1,27 @@
+{
+  "name": "geo-search",
+  "version": "1.0.0",
+  "description": "Geo-Search is a tool that allows people to search for places and extract information such as local weather conditions like temperature, wind speed, humidity, and precipitation. ",
+  "main": "request.js",
+  "dependencies": {
+    "eslint": "^7.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Damola18/GE0-SEARCH.git"
+  },
+  "keywords": [
+    "temperature",
+    "precipitation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Damola18/GE0-SEARCH/issues"
+  },
+  "homepage": "https://github.com/Damola18/GE0-SEARCH#readme"
+}
